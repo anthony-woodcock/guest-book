@@ -1,0 +1,67 @@
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ACB1B8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212121;
+}
+
+#todo-list-wrapper {
+  width: 550px;
+  margin: 0 auto;
+  background-color: #5C6C86;
+  padding: 0.5rem;
+  margin-top: 50px;
+}
+
+input, button {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: inherit;
+  outline: none;
+}
+
+input {
+  width: 300px;
+  background-color: #455A7B;
+  color: white;
+}
+
+button {
+  width: 100px;
+  background-color: #455A7B;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #8D95A2;
+  color:white;
+}
+
+ul li:hover {
+  background-color: #8D95A2;
+  cursor: pointer;
+  text-decoration: line-through;
+  color:white;
+}
